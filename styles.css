@@ -84,6 +84,7 @@ a {
 
 .between-sec {
   padding: 20rem 0;
+  text-align: center;
 }
 
 .between-sec-color {
@@ -103,6 +104,15 @@ header {
   flex-direction: column;
   text-align: center;
   position: relative;
+}
+
+#logo {
+  display: none;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: -5px;
+  border-bottom: 1px solid #fff;
 }
 
 /*Header Nav Toggle */
@@ -364,4 +374,77 @@ footer h4 {
   color: var(--main-font-color);
   font-weight: 100;
   font-family: "Bebas Neue", sans-serif;
+}
+
+footer p {
+  color: #fff;
+}
+
+@media screen and (min-width: 769px) {
+  header,
+  between-sec {
+    background-attachment: fixed;
+  }
+  .menu {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    padding: 2rem 10rem 0;
+    justify-content: space-between;
+  }
+
+  .nav .overlay {
+    position: initial;
+    background: none;
+    opacity: initial;
+    transform: initial;
+  }
+
+  .nav .overlay ul {
+    flex-direction: row;
+    list-style: none;
+    margin-top: 2px;
+  }
+
+  .nav .overlay ul li a {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-right: -1px;
+    padding: 0 2rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .center {
+    flex: 1;
+  }
+
+  .add-flex {
+    flex: 1;
+  }
+
+  .add-padding-right {
+    padding-right: 10rem;
+  }
+
+  .first {
+    order: 1;
+  }
+
+  .second {
+    order: 2;
+  }
+
+  .store {
+    min-height: 40rem;
+  }
+
+  .btn-info {
+    font-size: 1.8rem;
+  }
 }

@@ -394,6 +394,10 @@ footer p {
     justify-content: space-between;
   }
 
+  #logo {
+    display: block;
+  }
+
   .nav .overlay {
     position: initial;
     background: none;
@@ -446,5 +450,53 @@ footer p {
 
   .btn-info {
     font-size: 1.8rem;
+  }
+
+  .main-text h1 {
+    transform: translateY(4rem);
+    opacity: 0;
+    animation: 0.5s fadeUp 0.5s forwards;
+  }
+
+  .main-text h2 {
+    transform: scale(2);
+    opacity: 0;
+    animation: fadeIn 0.5s forwards;
+  }
+
+  .main-text .main-btn {
+    opacity: 0;
+    animation: 0.5s fade 1s forwards;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      transform: scale(2);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeUp {
+    0% {
+      transform: translateY(4rem);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }

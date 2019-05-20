@@ -15,7 +15,8 @@ html {
   scroll-behavior: smooth;
 }
 :root {
-  --main-font-color: #f2b632;
+  /* --main-font-color: #f2b632; */
+  --main-font-color: #f93e30;
   --main-white: #fff;
   --main-font-dark-gray: #4d4d4d;
   --main-footer-bg-color: #141414;
@@ -98,7 +99,7 @@ header {
   width: 100%;
   height: 100vh;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), transparent),
-    url("images/hero.jpeg") bottom no-repeat;
+    url("images/cherries.jpg") bottom no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -281,7 +282,7 @@ header {
 .store {
   width: 100%;
   min-height: 30rem;
-  background: url("images/store.jpeg") center no-repeat;
+  background: url("images/bakery.jpg") center no-repeat;
   background-size: cover;
 }
 
@@ -292,7 +293,7 @@ header {
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.5)
     ),
-    url("images/between.jpeg"), center no-repeat;
+    url("images/cherry-hero.jpg"), center no-repeat;
   background-size: cover;
 }
 
@@ -307,14 +308,14 @@ header {
   height: 30rem;
 }
 
-.citrus-goodness {
+.sweet-goodness {
   width: 100%;
   background: linear-gradient(
       to bottom,
       rgba(0, 0, 0, 0.05),
       rgba(0, 0, 0, 0.5)
     ),
-    url("images/between2.jpeg"), center no-repeat;
+    url("images/cherry-pop.jpg"), center no-repeat;
   background-size: cover;
 }
 

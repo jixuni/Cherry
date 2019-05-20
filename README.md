@@ -3,7 +3,7 @@
 
 # Cherry
 
-This is a responsesive boilerplate for mondern website layout design. It can be view here (Cherry)[https://jixuni.github.io/Cherry/index.html]
+This is a responsesive boilerplate for mondern website layout design. It can be view here [Cherry](https://jixuni.github.io/Cherry/index.html)
 
 ## Getting Started
 
@@ -20,7 +20,8 @@ It is currently on github pages. The contact section doesn't actually submit any
 ## Built With
 
 * [jQuery](https://jquery.com/) - JavaScript library use for css minipulation
-  HTML/CSS 
+<br>
+* HTML/CSS 
 
 
 ## Future build

@@ -22,7 +22,6 @@ It is currently on github pages. The contact section doesn't actually submit any
 ## Built With
 
 * [jQuery](https://jquery.com/) - JavaScript library use for css minipulation
-<br>
 * HTML/CSS 
 
 

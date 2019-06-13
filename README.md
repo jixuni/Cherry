@@ -5,7 +5,7 @@
 
 ![ScreenShot](https://github.com/jixuni/Cherry/blob/master/images/screenshot.png)
 
-This is a responsesive boilerplate for mondern website layout design. It can be view here [Cherry](https://jixuni.github.io/Cherry/index.html)
+This is a responsive boilerplate I made for mondern website layout design. It can be view here [Cherry](https://jixuni.github.io/Cherry/index.html)
 
 ## Getting Started
 

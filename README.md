@@ -5,7 +5,7 @@
 
 ![ScreenShot](https://github.com/jixuni/Cherry/blob/master/images/screenshot.png)
 
-This is a responsive boilerplate I made for mondern website layout design. It can be view here [Cherry](https://jixuni.github.io/Cherry/index.html)
+This is a responsive boilerplate I made for a client with mondern website layout design. It can be view here [Cherry](https://jixuni.github.io/Cherry/index.html)
 
 ## Getting Started
 
@@ -13,7 +13,7 @@ Clone the repo and open the index.html in Chrome or Mozilla.
 
 ### Prerequisites
 
-Chrome or Mozilla, have no tested any other browsers.
+Chrome or Mozilla, have not tested any other browsers.
 
 ## Deployment
 

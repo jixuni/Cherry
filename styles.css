@@ -267,7 +267,7 @@ header {
   text-transform: uppercase;
 }
 
-.mav .overlay ul li a {
+.nav .overlay ul li a {
   display: block;
   font-size: 2rem;
   transition: all 650ms;
